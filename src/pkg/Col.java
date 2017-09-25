@@ -55,6 +55,8 @@ public class Col {
 		
 		
 		FluentWait wi= new FluentWait(driver);
+		
+		wiat
 		wi.withTimeout(40, TimeUnit.SECONDS);
 		wi.pollingEvery(500, TimeUnit.MILLISECONDS);
 		wi.pollingEvery(250, TimeUnit.MILLISECONDS);
